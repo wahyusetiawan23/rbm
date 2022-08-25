@@ -1,0 +1,37 @@
+/html
+  <div class="button-daily">
+        <a href="#" class="card-link btn btn-primary btn-md" data-bs-toggle="modal" data-bs-target="#ModalPrint">Search by date</a>
+      </div>
+      
+/modal
+<!-- Modal print -->
+      <div class="modal-print">
+        <div class="modal fade" id="ModalPrint" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-sm modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title header-print" id="exampleModalLabel">Daily Report</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="py-3 px-3">
+                  <label for="exampleFormControlInput1" class="form-label">Select Date</label>
+                  <input type="date" class="form-control" name="tanggal" />
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-md btn-secondary" data-bs-dismiss="modal">Find</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- akhir -->
+      
+ /css
+ .button-daily .btn {
+  background-color: #4f80ff;
+  border-color: #4f80ff;
+  border-radius: 10px;
+  font-size: 14px;
+}
