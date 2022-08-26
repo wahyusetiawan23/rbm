@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=0" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <title>Page Service Daily</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/dataTables.bootstrap5.min.css" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/fixedheader/3.2.4/css/fixedHeader.bootstrap5.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body class="d-flex flex-column min-vh-100;">
+    <!-- Navbar bottom -->
+    <div class="contain">
+      <div class="menu">
+        <div class="navbar-home">
+          <a href="index.html">
+            <div class="one">
+              <i class="fa-solid fa-house fa-3x"></i>
+            </div>
+            <span>Home</span>
+          </a>
+        </div>
+        <div class="navbar-home" id="service">
+          <a href="report-service-daily.html">
+            <div class="one">
+              <i class="fa-solid fa-screwdriver-wrench fa-3x"></i>
+            </div>
+            <span>Service</span>
+          </a>
+        </div>
+        <div class="navbar-home">
+          <a href="report-handphone-daily.html">
+            <div class="one">
+              <i class="fa-solid fa-mobile-screen fa-3x"></i>
+            </div>
+            <span>Handphone</span>
+          </a>
+        </div>
+        <div class="navbar-home">
+          <a href="report-sparepart-daily.html">
+            <div class="one">
+              <i class="bi bi-gear-wide-connected fa-3x"></i>
+            </div>
+            <span>Sparepart</span>
+          </a>
+        </div>
+        <div class="navbar-home">
+          <a href="admin.html">
+            <div class="one">
+              <i class="bi bi-grid-fill fa-3x"></i>
+            </div>
+            <span>More</span>
+          </a>
+        </div>
+      </div>
+      <!-- header -->
+      <div class="header-daily">
+        <a href="index.html" class="icon-back"><img src="assets/img/arrow-back.png" alt="" /></a>
+        <span class="report-daily">Service Proccess</span>
+      </div>
+      <!-- akhir header -->
+      <!-- table-service -->
+      <div class="header-info-status"><span>Status Service</span></div>
+      <div class="info-status w-100 text-center py-3">
+        <span class="badge rounded-pill text-bg-secondary">Queue</span>
+        <span class="badge rounded-pill text-bg-warning">Proccess</span>
+        <span class="badge rounded-pill text-bg-primary">Done</span>
+        <span class="badge rounded-pill text-bg-danger">Cancel</span>
+        <span class="badge rounded-pill text-bg-success">Taken</span>
+        <span class="badge rounded-pill text-bg-info">Refund</span>
+      </div>
+      <div class="row header-service-daily mt-3">
+        <div class="col-12"><span class="table-header-service">Service All data</span></div>
+      </div>
+      <div class="table-service-daily">
+        <div class="card-table table-responsive">
+          <table class="table table-striped table-bordered example table-sm">
+            <thead>
+              <tr>
+                <th scope="col">Invoice</th>
+                <th scope="col">Customer</th>
+                <th scope="col">Brand</th>
+                <th scope="col">Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="text-bg-secondary">
+                <td scope="row">INV-23122021234205</td>
+                <td>Adi</td>
+                <td>Samsung</td>
+                <td><button type="button" class="btn btn-sm btn-primari" data-bs-toggle="modal" data-bs-target="#ModalService">Details</button></td>
+              </tr>
+              <tr class="text-bg-warning">
+                <td scope="row">INV-23122021234205</td>
+                <td>Adi</td>
+                <td>Samsung</td>
+                <td><button type="button" class="btn btn-sm btn-primari" data-bs-toggle="modal" data-bs-target="#ModalService">Details</button></td>
+              </tr>
+              <tr class="text-bg-primary">
+                <td scope="row">INV-23122021234205</td>
+                <td>Adi</td>
+                <td>Samsung</td>
+                <td><button type="button" class="btn btn-sm btn-primari" data-bs-toggle="modal" data-bs-target="#ModalService">Details</button></td>
+              </tr>
+              <tr class="text-bg-danger">
+                <td scope="row">INV-23122021234205</td>
+                <td>Adi</td>
+                <td>Samsung</td>
+                <td><button type="button" class="btn btn-sm btn-primari" data-bs-toggle="modal" data-bs-target="#ModalService">Details</button></td>
+              </tr>
+              <tr class="text-bg-success">
+                <td scope="row">INV-23122021234205</td>
+                <td>Adi</td>
+                <td>Samsung</td>
+                <td><button type="button" class="btn btn-sm btn-primari" data-bs-toggle="modal" data-bs-target="#ModalService">Details</button></td>
+              </tr>
+              <tr class="text-bg-info">
+                <td scope="row">INV-23122021234205</td>
+                <td>Adi</td>
+                <td>Samsung</td>
+                <td><button type="button" class="btn btn-sm btn-primari" data-bs-toggle="modal" data-bs-target="#ModalService">Details</button></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <!-- akhir table -->
+      <!-- Modal service -->
+      <div class="modal-details">
+        <div class="modal fade" id="ModalService" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-sm modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Details</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <table class="table table-sm table-borderless">
+                  <tbody>
+                    <tr>
+                      <th>Status</th>
+                      <td>Taken</td>
+                    </tr>
+                    <tr>
+                      <th>Date In</th>
+                      <td>2022-08-24</td>
+                    </tr>
+                    <tr>
+                      <th>Date Out</th>
+                      <td>2022-08-24</td>
+                    </tr>
+                    <tr>
+                      <th>Phone</th>
+                      <td>083</td>
+                    </tr>
+                    <tr>
+                      <th>Imei 1</th>
+                      <td>1687628176</td>
+                    </tr>
+                    <tr>
+                      <th>Imei 2</th>
+                      <td>-</td>
+                    </tr>
+                    <tr>
+                      <th>Damage</th>
+                      <td>Ganti LCD</td>
+                    </tr>
+                    <tr>
+                      <th>Desc</th>
+                      <td>Ganti LCD</td>
+                    </tr>
+                    <tr>
+                      <th>Note</th>
+                      <td>Ganti LCD</td>
+                    </tr>
+                    <tr>
+                      <th>Completeness</th>
+                      <td>Ganti LCD</td>
+                    </tr>
+                    <tr>
+                      <th>Price</th>
+                      <td>500.000</td>
+                    </tr>
+                    <tr>
+                      <th>Admin</th>
+                      <td>Demo</td>
+                    </tr>
+                    <tr>
+                      <th>Techician</th>
+                      <td>Demo</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-sm btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- akhir -->
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.12.1/js/dataTables.bootstrap5.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".example").DataTable();
+      });
+    </script>
+    <script>
+      document.getElementById("service").className += " icon-active";
+    </script>
+  </body>
+</html>
