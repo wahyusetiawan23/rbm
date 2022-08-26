@@ -355,7 +355,7 @@ body {
   font-size: 18px;
   font-weight: 600;
   color: #202020;
-  padding: 10px 20px 20px;
+  padding: 10px 20px 10px 10px;
   background: #ffffff;
   z-index: 11;
 }
@@ -600,6 +600,61 @@ body {
   margin-top: 30px;
 }
 
+.header-info-status {
+  margin-top: 10px;
+  padding: 10px 0px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #202020;
+}
+
+.info-status {
+  background-color: #ffffff;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+.info-status span {
+  font-size: 11px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+}
+
+table.dataTable.table-striped > tbody > tr.odd > * {
+  box-shadow: none;
+}
+
+.text-bg-secondary,
+.text-bg-secondary td {
+  background-color: #bbbbbb !important;
+  color: #ffffff !important;
+}
+
+.text-bg-warning,
+.text-bg-warning td {
+  background-color: #ff895d !important;
+  color: #ffffff !important;
+}
+.text-bg-primary,
+.text-bg-primary td {
+  background-color: #7fb5ff !important;
+  color: #ffffff !important;
+}
+.text-bg-danger,
+.text-bg-danger td {
+  background-color: #f05454 !important;
+  color: #ffffff !important;
+}
+.text-bg-success,
+.text-bg-success td {
+  background-color: #16c79a !important;
+  color: #ffffff !important;
+}
+.text-bg-info,
+.text-bg-info td {
+  background-color: #ffd369 !important;
+  color: #ffffff !important;
+}
 /* ======================== */
 /* style employee */
 .employee {
