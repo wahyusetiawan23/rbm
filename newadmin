@@ -1,0 +1,16 @@
+<div class="menu-admin">
+          <div class="card">
+            <div class="card-body">
+              <a href="product.html">
+                <div class="row">
+                  <div class="col-10"><img class="content-more-img" src="assets/img/product.png" alt="" /> <span>Product</span></div>
+                  <div class="col-2">
+                    <img class="arrow-right-one" src="assets/img/arrow-right.png" alt="" />
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+       
