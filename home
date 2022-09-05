@@ -1,0 +1,35 @@
+<div class="row mt-2 mb-5">
+              <div class="col-md-5 col-6 mb-2 text-center ">  
+              <a href="" class="text-decoration-none">
+                <div class="download text-center shadow">
+                  <img src="assets/img/android.svg" alt=""> <br>
+                  <span>Download APK</span>
+                </div>
+              </a>
+              </div>
+              <div class="col-md-5 col-6 mb-2 text-center">  
+                <a href="" class="text-decoration-none">
+                <div class="download text-center shadow">
+                  <img src="assets/img/ios.svg" alt=""> <br>
+                  <span>Download IOS</span>
+                </div>
+              </a>
+              </div>
+            </div>
+            
+            style//
+            .download:hover {
+  background-color: #001d6e !important;
+  color: #fff !important;
+  transition: 0.5s;
+  transform: translateY(-5px);
+}
+
+.download {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  color: #001d6e;
+  font-size: 18px;
+  font-weight: 500;
+}
