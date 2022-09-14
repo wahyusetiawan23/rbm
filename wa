@@ -1,47 +1,33 @@
-<div class="menu">
-      <div class="support"><p>Support</p></div>
-      <div class="float"> 
-        <a href="https://api.whatsapp.com/send?phone=08112871998" target="_blank">
-          <i class="fa-brands fa-whatsapp my-float"></i>
-        </a>
-      </div>
-    </div>
-
+   <div class="d-flex justify-content-end">
+          <div class="support">
+            <span>Support</span>
+            <i class="fa-brands fa-whatsapp fa-2xl"></i>
+          </div>
+        </div>
 //style
-.menu {
-  z-index: 100;
-}
-
-.support p {
+.support {
   position: fixed;
-  bottom: 40px;
-  right: 110px;
-  color: #25d366;
-  text-align: center;
-  font-size: 20px;
+  color: #fff;
+   font-size: 16px;
   font-weight: 700;
-  text-shadow: 0px 2px 2px #999;
-}
-
-/* popup wa */
-.float {
-  position: fixed;
-  width: 60px;
-  height: 60px;
+  letter-spacing: 0.1em;
+  width: 153.5px;
+  height: 50.4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  background-color: #25d366;
   bottom: 40px;
   right: 40px;
-  background-color: #25d366;
-  color: #fff;
-  border-radius: 50px;
-  text-align: center;
-  font-size: 30px;
-  box-shadow: 2px 2px 3px #999;
+  cursor: pointer;
+  transition: 0.5s;
 }
 
-.my-float {
-  margin-top: 16px;
-}
-
-.float:hover {
-  color: #4f80ff;
+.support:hover {
+  background-color: #fff;
+  color: #25d366;
 }
