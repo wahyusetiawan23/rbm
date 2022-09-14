@@ -1,0 +1,47 @@
+<div class="menu">
+      <div class="support"><p>Support</p></div>
+      <div class="float"> 
+        <a href="https://api.whatsapp.com/send?phone=08112871998" target="_blank">
+          <i class="fa-brands fa-whatsapp my-float"></i>
+        </a>
+      </div>
+    </div>
+
+//style
+.menu {
+  z-index: 100;
+}
+
+.support p {
+  position: fixed;
+  bottom: 40px;
+  right: 110px;
+  color: #25d366;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  text-shadow: 0px 2px 2px #999;
+}
+
+/* popup wa */
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+}
+
+.my-float {
+  margin-top: 16px;
+}
+
+.float:hover {
+  color: #4f80ff;
+}
