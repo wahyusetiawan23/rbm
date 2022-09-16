@@ -1,0 +1,33 @@
+ <nav class="navbar navbar-expand-lg" style="background-color: #4f80ff">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="assets/img/logorbm.png" style="width: 100px" alt="" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav navbar-dark ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"> <i class="fa-solid fa-arrow-up-right-from-square px-2"></i> Go to Website</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+<section class="bg-support">
+    <div class="container mt-5">
+        <div class="card" style=" background: rgba(79, 128, 255, 0.2);">
+            <div class="row g-0">
+              <div class="col-md-4 d-flex justify-content-center align-items-center">
+                <img src="assets/img/doc.png" style="width: 88px; height:88px;" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                 <a href="" class="btn btn-primary" style="background-color: #4f80ff; border-color: #4f80ff;">View All <i class="fa-solid fa-arrow-right px-2"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+</section>
