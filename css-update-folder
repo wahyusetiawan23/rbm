@@ -1,3 +1,19 @@
+  <nav class="navbar navbar-dark navbar-package navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href=""><img src="assets/img/bdw bodas.png" alt="" /></a>
+
+        <div class="collapse navbar-collapse"></div>
+        <ul class="navbar-nav navbar-btn ms-auto gap-3">
+          <li class="nav-item">
+            <a class="nav-link" href="recent-download.html">Recent Files</a>
+          </li>
+        </ul>
+        <div class="img-profil">
+          <a href="profil.html"><img class="img-ava" src="assets/img/profil.png" alt="" /></a>
+        </div>
+      </div>
+    </nav>
+
 :root {
   --bg-color-blue: #336799;
   --bg-color-white: #f3f5f7;
