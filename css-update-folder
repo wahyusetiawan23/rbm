@@ -1,30 +1,3 @@
-  <nav class="navbar navbar-dark navbar-package navbar-expand-lg">
-      <div class="container">
-        <a class="navbar-brand" href=""><img src="assets/img/bdw bodas.png" alt="" /></a>
-
-        <div class="collapse navbar-collapse"></div>
-        <ul class="navbar-nav navbar-btn ms-auto gap-3">
-          <li class="nav-item">
-            <a class="nav-link" href="recent-download.html">Recent Files</a>
-          </li>
-        </ul>
-        <div class="img-profil">
-          <a href="profil.html"><img class="img-ava" src="assets/img/profil.png" alt="" /></a>
-        </div>
-      </div>
-    </nav>
-
-:root {
-  --bg-color-blue: #336799;
-  --bg-color-white: #f3f5f7;
-  --color-white: #fff;
-  --color-black: #1b1c1e;
-  --bg-dark-blue: #172a3e;
-  --bg-secondary: #c7cacd;
-  --bg-color-light: #fafafa;
-  --color-secondary: #666666;
-  --bs-pagination-font-size: 14px;
-}
 body {
   font-family: "Poppins", sans-serif;
   color: #1b1c1e;
@@ -92,7 +65,6 @@ body {
 .option .search {
   margin-top: 30px;
 }
-
 .option .search .form-control {
   /* padding: 10px 0px 10px 20px; */
   border-radius: 10px;
@@ -136,6 +108,7 @@ body {
   margin-bottom: 20px;
   width: 100%;
   border-radius: 10px;
+  border-color: #336799 !important;
 }
 
 .card-folder .card img {
@@ -255,8 +228,9 @@ body {
 .btn-download .btn {
   font-weight: 600;
   padding: 10px 0px 10px 0;
-  background-color: #297fd4;
-  border-color: #297fd4;
+  background-color: #297fd4 !important;
+  border-color: #297fd4 !important;
+  color: #fff !important;
 }
 
 .btn-download span {
@@ -284,7 +258,7 @@ body {
 .profil .card {
   background-color: #f3f5f7;
   border-radius: 10px;
-  border-color: #336799;
+  border-color: #336799 !important;
 }
 
 .profil .card img {
@@ -312,12 +286,12 @@ body {
   margin-top: 50px;
   display: flex;
   justify-content: flex-end;
-  gap: 10px;
 }
 .profil .action .upload .btn {
-  background-color: #336799;
-  border-color: #336799;
+  background-color: #336799 !important;
+  border-color: #336799 !important;
   padding: 5px 25px 5px 25px;
+  margin-left: 10px;
 }
 
 .profil .action .upload .history {
@@ -339,6 +313,11 @@ body {
 
 .profil .page-link {
   font-size: 14px !important;
+}
+
+.modal .modal-title {
+  font-size: 24px;
+  font-weight: 600;
 }
 .modal .modal-body .col-form-label {
   font-weight: 600;
@@ -458,6 +437,9 @@ body {
 .folder .view-video .view .fa-download {
   margin-right: 10px;
 }
+.card-folder .content-card-folder .card {
+  border-color: #336799 !important;
+}
 .card-folder .content-card-folder .col-md-4 {
   justify-content: center;
   align-self: center;
@@ -478,13 +460,48 @@ body {
   text-overflow: ellipsis;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
-  max-height: 50px;
+  max-height: 37px;
 }
 .notfound .title {
   text-align: center;
   margin-top: 10px;
   font-size: 28px;
   font-weight: 500;
+}
+.result-search h2 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 24px;
+  color: #666666;
+}
+.result-search span {
+  color: #336799 !important;
+}
+.not-search p {
+  color: #666666;
+}
+.not-search a {
+  color: #336799 !important;
+}
+.search .form-control {
+  /* padding: 10px 0px 10px 20px; */
+  border-radius: 10px;
+  border-color: #336799;
+}
+
+.search .btn {
+  background-color: #336799;
+  color: #fff;
+  padding: 0 25px 0px 25px;
+  border-radius: 0px 10px 10px 0;
+  border-color: #336799;
+}
+
+.title h4 {
+  font-weight: 600;
+}
+.title .fa-folder-open {
+  color: #336799;
 }
 /* .accordion-button:not(.collapsed) {
   background-color: #d9edf7;
@@ -526,15 +543,15 @@ body {
 }
 @media only screen and (max-width: 1000px) {
   .card-folder .content-card-folder {
-    width: 50%;
+    width: 50% !important;
   }
   .navbar-brand img {
-    width: 250px;
+    width: 250px !important;
   }
   .folder .view .col-md {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: flex-end !important;
   }
   .folder .view .justify-content-end {
     justify-content: flex-end !important;
@@ -543,28 +560,28 @@ body {
 
 @media only screen and (max-width: 768px) {
   .card-folder .content-card-folder {
-    width: 100%;
+    width: 100% !important;
   }
   .card-folder .content-card-folder img {
-    width: 54px;
+    width: 54px !important;
   }
   .kategori .card {
-    margin-bottom: 20px;
+    margin-bottom: 20px !important;
   }
   .card-folder .content-card-folder .row > * {
-    width: 50%;
+    width: 50% !important;
   }
   .folder .view-video img {
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 50% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
   }
   .folder .view-video .row > * {
-    width: 50%;
+    width: 50% !important;
   }
   .folder .view-video .view > * {
-    width: 100%;
+    width: 100% !important;
   }
   .folder .view-video .view .justify-content-end {
     justify-content: flex-start !important;
@@ -575,12 +592,12 @@ body {
   }
   .folder .view-video-tutor,
   .folder .view-download {
-    padding: 0px;
+    padding: 0px !important;
   }
   .update .form-label {
-    justify-content: center;
+    justify-content: center !important;
   }
   .navbar-brand img {
-    width: 250px;
+    width: 250px !important;
   }
 }
