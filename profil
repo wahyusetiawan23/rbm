@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Home</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body class="d-flex flex-column min-vh-100">
+    <!-- navbar -->
+    <nav class="navbar navbar-dark navbar-package navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href=""><img src="assets/img/bdw bodas.png" alt="" /></a>
+
+        <div class="collapse navbar-collapse"></div>
+        <ul class="navbar-nav navbar-btn ms-auto gap-3">
+          <li class="nav-item">
+            <a class="nav-link" href="recent-download.html">Recent Files</a>
+          </li>
+        </ul>
+        <div class="img-profil nav-item dropdown">
+          <a href="#" class="nav-link" role="button" data-toggle="dropdown" aria-expanded="false"><img class="img-ava" src="assets/img/profil.png" alt="" /></a>
+          <div class="dropdown-menu dropdown-menu-lg-right">
+            <a class="dropdown-item" href="profil.html">Profile</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Clear Cache</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- akhir navbar -->
+    <!-- table update -->
+    <section class="update">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2 col-sm-3 col-xs-2">
+            <label for="exampleFormControlInput1" class="form-label"><i class="fa-regular fa-clock"></i><span>Top Recent</span></label>
+          </div>
+          <div class="col-md-10 col-sm-9 col-xs-10">
+            <div class="marquee-set">
+              <div class="marquee-content">
+                <div class="mq-file-item inline">
+                  <a href=""> Redmi A1 / A1 Plus ENG .</a>
+                  <span class="badge bg-primary">FEATURE</span>
+                  <span class="item-detail">[ 2022-11-19 11:37:33 ]</span>
+                </div>
+                <div class="mq-file-item inline">
+                  <a href=""> K7B_FACTORY_LLDLM384_T516_0517.zip</a>
+                  <span class="badge bg-primary">FEATURE</span>
+                  <span class="item-detail">[ 2022-11-19 11:37:33 ]</span>
+                </div>
+                <div class="mq-file-item inline">
+                  <a href=""> POCO M5/Redmi 11 Prime 4G (rock) ENG FIRMWARE</a>
+                  <span class="badge bg-primary">FEATURE</span>
+                  <span class="item-detail">[ 2022-11-19 11:37:33 ]</span>
+                </div>
+                <div class="mq-file-item inline">
+                  <a href=""> A013MUBU3AVE1_A013MOWT3AVE1_TMM_OS10.zip</a>
+                  <span class="badge bg-primary">FEATURE</span>
+                  <span class="item-detail">[ 2022-11-19 11:37:33 ]</span>
+                </div>
+                <div class="mq-file-item inline">
+                  <a href=""> A013MUBU3AVE1_A013MOWO3AVE1_PEO_OS10.zip</a>
+                  <span class="badge bg-primary">FEATURE</span>
+                  <span class="item-detail">[ 2022-11-19 11:37:33 ]</span>
+                </div>
+                <div class="mq-file-item inline">
+                  <a href=""> A013MUBU3AVC2_A013MOWA3AVC3_ARO_OS10.zip</a>
+                  <span class="badge bg-primary">FEATURE</span>
+                  <span class="item-detail">[ 2022-11-19 11:37:33 ]</span>
+                </div>
+                <div class="mq-file-item inline">
+                  <a href=""> A013MUBU3AVC1_A013MOWO3AUL7_PEO_OS10.zip</a>
+                  <span class="badge bg-primary">FEATURE</span>
+                  <span class="item-detail">[ 2022-11-19 11:37:33 ]</span>
+                </div>
+                <div class="mq-file-item inline">
+                  <a href=""> A013MUBU3AUI1_A013MOWO3AUI1_PEO_OS10.zip</a>
+                  <span class="badge bg-primary">FEATURE</span>
+                  <span class="item-detail">[ 2022-11-19 11:37:33 ]</span>
+                </div>
+                <div class="mq-file-item inline">
+                  <a href=""> A013MUBU1ATK1_A013MOWO1ATK1_PEO_OS10.zip</a>
+                  <span class="badge bg-primary">FEATURE</span>
+                  <span class="item-detail">[ 2022-11-19 11:37:33 ]</span>
+                </div>
+                <div class="mq-file-item inline">
+                  <a href=""> A013MUBU1ATI5_A013MOWO1ATH1_PEO_OS10.zip</a>
+                  <span class="badge bg-primary">FEATURE</span>
+                  <span class="item-detail">[ 2022-11-19 11:37:33 ]</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- update -->
+    <!-- profil -->
+    <section class="profil">
+      <div class="container">
+        <div class="row content">
+          <div class="col-md-10">
+            <div class="card">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-md-5">
+                    <img src="assets/img/img-profil.png" alt="" />
+                  </div>
+                  <div class="col-md-7">
+                    <div class="detail-profil">
+                      <h5>Name :</h5>
+                      <p>Cameron Williamson</p>
+                    </div>
+                    <div class="detail-profil">
+                      <h5>Email :</h5>
+                      <p>debbie.baker@example.com</p>
+                    </div>
+                    <div class="detail-profil">
+                      <h5>Created :</h5>
+                      <p>2022-10-29 | 07:59:00</p>
+                    </div>
+                    <div class="detail-profil">
+                      <h5>Expired :</h5>
+                      <p>2022-10-29 | 07:59:00</p>
+                    </div>
+                    <div class="row action">
+                      <div class="col-md upload">
+                        <a href="" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Upload</a>
+                        <a href="history.html" class="btn btn-primary history">History</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- profil -->
+    <!-- footer -->
+    <footer class="mt-auto">
+      <section class="footer">
+        <div class="container">
+          <p>Copyright © 2022 All rights reserved.</p>
+        </div>
+      </section>
+    </footer>
+    <!-- footer -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title" id="exampleModalLabel">Upload</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="mb-3 row">
+              <label class="col-sm-2 col-form-label">Brand</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="" />
+              </div>
+            </div>
+            <div class="mb-3 row">
+              <label class="col-sm-2 col-form-label">Type</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="" />
+              </div>
+            </div>
+            <div class="mb-3 row">
+              <label class="col-sm-2 col-form-label">Title</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="" />
+              </div>
+            </div>
+            <div class="mb-3 row">
+              <label class="col-sm-2 col-form-label">Link</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="" />
+              </div>
+            </div>
+            <div class="mb-3 row">
+              <label class="col-sm-2 col-form-label">Description</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="" />
+              </div>
+            </div>
+            <div class="row mb-3">
+              <label class="col-sm-2 col-form-label">Category</label>
+              <div class="col-sm-10 mt-2">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="myCheck" onclick="myFunction()" value="option1" checked />
+                  <label class="form-check-label" for="inlineRadio1">Video</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="myCheck" onclick="myFunction()" value="option2" />
+                  <label class="form-check-label" for="inlineRadio2">Download</label>
+                </div>
+              </div>
+            </div>
+            <div class="row" style="visibility: hidden" id="formInput">
+              <label class="col-sm-2 col-form-label">Password</label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="" />
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    <script>
+      function myFunction() {
+        var checkBox = document.getElementById("myCheck");
+        var form = document.getElementById("formInput");
+        if (checkBox.checked == false) {
+          form.style.visibility = "";
+        } else {
+          form.style.visibility = "hidden";
+        }
+      }
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script>
+  </body>
+</html>
