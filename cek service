@@ -1,0 +1,23 @@
+  <div class="row">
+                          <div class="col-md-4 text-center">
+                            <img src="assets/img/DONE.png" alt="" />
+                          </div>
+                          <div class="col-md-8">
+                            <dl class="row">
+                              <dt class="col-5">Name:</dt>
+                              <dd class="col-7">jhjkhkjh</dd>
+                              <dt class="col-5">Brand:</dt>
+                              <dd class="col-7">asdasd</dd>
+                              <dt class="col-5">Imei:</dt>
+                              <dd class="col-7">232321</dd>
+                              <dt class="col-5">IP Address:</dt>
+                              <dd class="col-7">46.113.11.3</dd>
+                              <dt class="col-5">Damage:</dt>
+                              <dd class="col-7">sdfsdf</dd>
+                              <dt class="col-5">Harga:</dt>
+                              <dd class="col-7">3432423</dd>
+                              <dt class="col-5">Sparepart:</dt>
+                              <dd class="col-7">dsfdfds</dd>
+                            </dl>
+                          </div>
+                        </div>
